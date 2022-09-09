@@ -7,6 +7,7 @@
 - [x] Vite
 - [x] TypeScript
 - [x] React
+- [x] React Router
 - [x] Recoil
 - [x] React Query
 - [x] Cypress
