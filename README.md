@@ -1,11 +1,16 @@
 # github-repo-search
 
 ## 목표
-- [ ] GitHub 저장소를 검색합니다.
+- [x] GitHub 저장소를 검색합니다.
 
 ## 기술스택
-- [ ] React
-
+- [x] Vite
+- [x] TypeScript
+- [x] React
+- [x] Recoil
+- [x] React Query
+- [x] Cypress
+ 
 ## 그라운드 룰
 - [x] 코드는 Fork된 저장소에서 PR하여 리뷰 이후에 merge 한다.
 - [x] 커밋메세지는 목적 단위로 최대한 나누어서 작성한다.
