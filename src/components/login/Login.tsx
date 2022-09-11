@@ -16,15 +16,17 @@ const Login = () => {
       // 1. API가 필요함
       // Github 로그인 요청 (API 연결)
       // const { token, userName } = await getGitHubLoginAPI();
+      // fetch VS react-query
+      const ID = import.meta.env.VITE_OAUTH_ID || '';
+      await window.location.assign(`https://github.com/login/oauth/authorize?client_id=${ID}`);
+      // await navigate("https://github.com/login/oauth/authorize");
+
+      // 2. 전역 상태 관리 구축
       await delay(2000);
       setUser({
         token: 'abcd',
         userName: 'test name'
       });
-
-      // 2. 전역 상태 관리 구축 (지금 할 수 있음)
-      // Access Token 받아와서 전역상태로 저장
-      // setToken(token);
 
       // 3. 로그인 완료 처리
       // alert('로그인 완료')
